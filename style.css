@@ -283,3 +283,7 @@ ul {
   grid-template-columns: 1fr;
   list-style-type: none;
 }
+
+.divider3 {
+  padding-left: 24px;
+}
