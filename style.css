@@ -288,6 +288,107 @@ ul {
   padding-left: 24px;
 }
 
-.footer-section {
-  background-color: #191765;
+.form-container {
+  width: 80%;
+  margin: 5em;
 }
+
+.form-container > h3 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  text-align: center;
+  color: #9390FF;
+  flex: none;
+  margin: 24px 0px;
+}
+
+.form-container > p {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #F5F5FF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  position: static;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+form > input {
+  width: 100%;
+  height: 48px;
+  margin: 12px 0px
+}
+
+form > textarea {
+  width: 99%;
+  margin: 12px 0px;
+  border: none;
+  height: 148px;
+  font-family: Roboto, sans-serif;
+}
+
+input > #name {
+  padding-left: 10px;
+}
+
+input > #mail {
+  padding-left: 10px;
+}
+
+#msg {
+  padding-top: 18px;
+  padding-left: 10px;
+}
+
+.button {
+  width: 89px;
+  height: 48px;
+  left: 143px;
+  top: 656px;
+  margin-top: 40px;
+  font-family: Roboto, sans-serif;
+  border: none;
+  color: #fff;
+  background: #7d73fc;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #191765;
+  width: 375px;
+  color: #000;
+  background-image: url(./assets/images/footer-shape.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 90%;
+}
+
+.footer-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+  width: 375px;
+  left: 0px;
+}
+
