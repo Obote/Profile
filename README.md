@@ -2,12 +2,12 @@
 
 ## My portfolio mobile version
 
-This project is a mobile version of my portfolio. It will be continous project that will show what I am capable of doing a developer.
+This project is a mobile version of my portfolio contact form. It will be continous project that will show what I am capable of doing as a developer.
 
-Project day 4 of Microserve bootcamp, module 1
+Project day 2 week 2 of Microserve bootcamp, module 1
 
 
-![screenshot](./app.png)
+![screenshot](./app_screenshot.png)
 
 
 ## Built With
@@ -44,7 +44,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- @leonardoeng13 for helping in pair programing
 - Hat tip to anyone whose code was used
 - Inspiration
 - Microverse
