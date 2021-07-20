@@ -231,6 +231,15 @@ li {
   color: #fff;
 }
 
+form > button {
+  width: 89px;
+  height: 48px;
+  border: none;
+  margin-top: 3em;
+  background-color: #d58eeb;
+  cursor: pointer;
+}
+
 .experience-container button {
   height: 48px;
   width: 89px;
@@ -286,4 +295,97 @@ ul {
 
 .divider3 {
   padding-left: 24px;
+}
+
+form {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  list-style: none;
+  padding: 0;
+  margin-top: 2em;
+  color: #303036;
+  padding-left: 15px;
+}
+
+form > input {
+  width: 100%;
+  height: 48px;
+  box-sizing: border-box;
+  border: none;
+}
+
+form > textarea {
+  width: 100%;
+  height: 148px;
+  margin-top: 2em;
+  box-sizing: border-box;
+  border: none;
+  color: #303036;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+form > button:hover {
+  background-color: #503458;
+}
+
+.form-container h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  text-align: center;
+  color: #9390ff;
+}
+
+.form-container p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.footer-section hr {
+  width: 99%;
+  border-color: #615f5e;
+}
+
+.footer-section {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #191765;
+}
+
+.supporting-item-container:nth-child(2) {
+  margin: 25px 0 15px 0;
+}
+
+.footer-email {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
 }
