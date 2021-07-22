@@ -415,4 +415,38 @@ form > button:hover {
    }
 
 
+   .profile-container h1 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 105px;
+    text-align: center;    
+    color: #9391FF;
+   }
+
+   .profile-container h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #DFE1E6;
+    padding-top: 24px;
+   }
+
+   .profile-container p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #B3BAC5;
+    margin-top: 88px;
+    margin-left: 496.5px;
+    margin-right: 496.5px;
+   }
+
 }
