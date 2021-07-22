@@ -4,6 +4,10 @@
   display: none;
 }
 
+#desktop, #desktop1 {
+  display: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -406,6 +410,10 @@ form > button:hover {
   .menu-items {
     display: block;
   }
+
+  #mobile {
+    display: none;
+  }
    main {
      width: 1440px;
    }
@@ -495,5 +503,45 @@ form > button:hover {
      display: none;
    }
 
-  
+   .experience-container {
+     margin: 0 142px;
+     display: flex;
+   }
+   .sec-wrap {
+     display: flex;
+     flex-direction: column;
+   }
+
+   #desktop {
+     display: flex;
+   }
+
+   #desktop1 {
+     display: flex;
+     flex-direction: row-reverse;
+   }
+
+   #desktop img {
+    width: 684px;
+    height: 448px;
+   }
+
+   #desktop1 img {
+    width: 684px;
+    height: 448px;
+   }
+
+
+   .sec-wrap h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+   }
+   .sec-wrap p {
+    font-size: 20px;
+    line-height: 28px;
+   }
+
+   
 }
