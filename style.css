@@ -4,7 +4,7 @@
   display: none;
 }
 
-#desktop, #desktop1, #mobile-form{
+#desktop, #desktop1, #desktop-form, #desktop-footer {
   display: none;
 }
 
@@ -400,6 +400,18 @@ form > button:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1100px) {
 
   
@@ -411,9 +423,10 @@ form > button:hover {
     display: block;
   }
 
-  #mobile, {
+  #mobile, #mobile-form, #mobile-footer {
     display: none;
   }
+
    main, .footer-section{
      width: 1440px;
    }
@@ -543,8 +556,7 @@ form > button:hover {
     line-height: 28px;
    }
 
-   .footer-section {
-    display: flex;
+
    }
    .bottom img {
      display: none;
@@ -589,4 +601,28 @@ form > button:hover {
      margin-left: 12px;
    }
 
+   #sco-footer {
+     margin-left: 500px;
+   }
+
+   #desktop-footer {
+     display: flex;
+   }
+
+   .footer-container {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+   }
+
+    .bottom > a {
+      margin-top: 33px;
+      margin-left: 20px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+    }
  }
