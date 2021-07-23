@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-.menu-items{
+.menu-items {
   display: none;
 }
 
-#desktop, #desktop1, #desktop-form, #desktop-footer {
+#desktop,
+#desktopa,
+#desktop1,
+#desktop2,
+#desktop-form,
+#desktop-footer {
   display: none;
 }
 
@@ -398,178 +403,203 @@ form > button:hover {
   height: 70px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 1100px) {
-
-  
-  .hamburger, #mobile {
+  .hamburger,
+  #mobile,
+  #mobile1,
+  #mobile2,
+  #mobile3,
+  #mobile4,
+  #mobile-form,
+  #mobile-footer {
     display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu-items > ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 142px;
+  }
+
+  .logo {
+    margin-left: 154px;
+  }
+
+  .navbar > li {
+    justify-content: space-between;
   }
 
   .menu-items {
     display: block;
   }
 
-  #mobile, #mobile-form, #mobile-footer {
+  /* #mobile,
+  #mobile-form,
+  #mobile-footer {
     display: none;
+  } */
+
+  main,
+  .footer-section {
+    width: 1440px;
   }
 
-   main, .footer-section{
-     width: 1440px;
-   }
+  .navbar header {
+    width: 1440px;
+  }
 
-   .navbar header {
-     width: 1440px;
-   }
- 
-
-   .profile-container h1 {
+  .profile-container h1 {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 90px;
     line-height: 105px;
-    text-align: center;    
-    color: #9391FF;
-   }
+    text-align: center;
+    color: #9391ff;
+  }
 
-   .profile-container h2 {
-    font-family: Roboto;
+  .profile-container h2 {
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 47px;
     text-align: center;
-    color: #DFE1E6;
+    color: #dfe1e6;
     padding-top: 24px;
-   }
+  }
 
-   .profile-container p {
-    font-family: Roboto;
+  .profile-container p {
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 32px;
     text-align: center;
-    color: #B3BAC5;
+    color: #b3bac5;
     margin-top: 88px;
     margin-left: 496.5px;
     margin-right: 496.5px;
-   }
-   
-   .skill-stack {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      position: static;
-      width: auto;
-      left: 1px;
-      height: auto;
-      
-   }
+  }
 
-   .skill-stack h3 {
-      font-family: Roboto, sans-serif;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 18px;
-      line-height: 29px;
-      display: flex;
-      align-items: center;
-      color: #9390FF;
-   }
+  .skill-stack {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: static;
+    width: auto;
+    left: 1px;
+    height: auto;
+  }
 
-   .skill-stack li {
-      font-style: normal;
-      font-weight: normal;
-      font-size: 13.1389px;
-      line-height: 25px;
-      line-height: 25px;
-      line-height: 25px;
-      display: flex;
-      align-items: center; 
-   }
-   
-   .experience-title h2 {
+  .skill-stack h3 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #9390ff;
+  }
+
+  .skill-stack li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.1389px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+  }
+
+  .experience-title h2 {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
     line-height: 114px;
     margin-left: 142px;
-   }
+  }
 
-   .experience-title br {
-     display: none;
-   }
+  .experience-title br {
+    display: none;
+  }
 
-   .experience-container {
-     margin: 0 142px;
-     display: flex;
-   }
-   .sec-wrap {
-     display: flex;
-     flex-direction: column;
-   }
+  .experience-container {
+    margin: 0 142px;
+    display: flex;
+  }
 
-   #desktop {
-     display: flex;
-   }
+  .sec-wrap {
+    display: flex;
+    flex-direction: column;
+  }
 
-   #desktop1 {
-     display: flex;
-     flex-direction: row-reverse;
-   }
+  .bottom img {
+    display: none;
+  }
 
-   #desktop img {
+  #desktop,
+  #desktopa {
+    display: flex;
+  }
+
+  #desktop1,
+  #desktop2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #desktop img {
     width: 684px;
     height: 448px;
-   }
+  }
 
-   #desktop1 img {
+  #desktop1 img {
     width: 684px;
     height: 448px;
-   }
+  }
 
+  #desktopa img {
+    width: 684px;
+    height: 448px;
+  }
 
-   .sec-wrap h3 {
+  #desktop2 img {
+    width: 684px;
+    height: 448px;
+  }
+
+  .sec-wrap h3 {
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
-   }
-   .sec-wrap p {
+  }
+
+  .sec-wrap p {
     font-size: 20px;
     line-height: 28px;
-   }
+  }
 
-
-   }
-   .bottom img {
-     display: none;
-   }
-
-   #desktop-form {
+  #desktop-form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 114px 0px;
-   }
+    padding: 114px 0;
+  }
 
-   #desktop-form h3 {
+  #desktop-form h3 {
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -577,52 +607,53 @@ form > button:hover {
     display: flex;
     align-items: center;
     text-align: center;
-   }
+  }
 
-   #desktop-form > p {
+  #desktop-form > p {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #EBEBFF;
+    color: #ebebff;
     margin-left: 378px;
     margin-right: 378px;
-   }
+  }
 
-   input {
-    height: 48px;    
-   }
+  input {
+    height: 48px;
+  }
 
-   .input1 {
-     margin-right: 12px;
-   }
-   .input2 {
-     margin-left: 12px;
-   }
+  .input1 {
+    margin-right: 12px;
+  }
 
-   #sco-footer {
-     margin-left: 500px;
-   }
+  .input2 {
+    margin-left: 12px;
+  }
 
-   #desktop-footer {
-     display: flex;
-   }
+  #sco-footer {
+    margin-left: 500px;
+  }
 
-   .footer-container {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-   }
+  #desktop-footer {
+    display: flex;
+  }
 
-    .bottom > a {
-      margin-top: 33px;
-      margin-left: 20px;
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      line-height: 28px;
-      text-align: center;
-    }
- }
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .bottom > a {
+    margin-top: 33px;
+    margin-left: 20px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+}
