@@ -415,6 +415,11 @@ form > button:hover {
     display: none;
   }
 
+  body {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   .navbar {
     display: flex;
     justify-content: flex-start;
@@ -638,6 +643,7 @@ form > button:hover {
 
   #desktop-footer {
     display: flex;
+    overflow-x: hidden;
   }
 
   .footer-container {
@@ -656,4 +662,5 @@ form > button:hover {
     line-height: 28px;
     text-align: center;
   }
+
 }
