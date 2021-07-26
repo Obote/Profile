@@ -4,6 +4,7 @@
   display: none;
 }
 
+#contact1,
 #desktop,
 #desktopa,
 #desktop1,
@@ -411,7 +412,8 @@ form > button:hover {
   #mobile3,
   #mobile4,
   #mobile-form,
-  #mobile-footer {
+  #mobile-footer,
+  #contact {
     display: none;
   }
 

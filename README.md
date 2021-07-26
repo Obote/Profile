@@ -2,9 +2,9 @@
 
 ## My portfolio mobile version
 
-This project is a mobile version of my portfolio contact form. It will be continous project that will show what I am capable of doing as a developer.
+This project is profile portfolio and deploying webpages on github pages in Microserve bootcamp week 3 day 1.
 
-Project day 2 week 2 of Microserve bootcamp, module 1
+Project day 1 week 3 of Microserve bootcamp, module 1
 
 
 ![screenshot](./app_screenshot.png)
