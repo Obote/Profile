@@ -2,7 +2,7 @@
 
 ## My portfolio mobile version
 
-This project is profile portfolio and deploying webpages on github pages in Microserve bootcamp week 3 day 1.
+This project is profile portfolio and using Google analytics in webpages on github pages in Microserve bootcamp week 3 day 1.
 
 Project day 1 week 3 of Microserve bootcamp, module 1
 
