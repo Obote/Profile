@@ -275,7 +275,8 @@ form > button {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #edecff;
+  color: #191765
+  /*color: #edecff;*/
 }
 
 .border-right {
