@@ -355,7 +355,8 @@ form > textarea {
 }
 
 form > button:hover {
-  background-color: #503458;
+  background-color: #191765;
+  /*background-color: #503458;*/
 }
 
 .form-container h3 {
