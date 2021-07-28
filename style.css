@@ -287,13 +287,15 @@ form > button {
   padding-right: 20px;
 }
 
-.project-button :hover {
-  background-color: #e5e5e5;
+.project-button:hover {
+  background-color: #191765;
+  /*background-color: #e5e5e5;*/
 }
 
 .project-button:focus {
   outline: none;
-  box-shadow: 0 0 0 3px #7d73fc;
+  box-shadow: 0 0 0 3px #191765;
+  /*box-shadow: 0 0 0 3px #7d73fc;*/
 }
 
 .project-button:active {
