@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37E7P9BF84"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37E7P9BF84');
+</script>
 </head>
 <body>
     <nav class="navbar">
@@ -19,7 +28,7 @@
                     <li><a href="#"> <img src="./assets/icon/Union.svg" alt="message icon"></a></li>
                 </ul>
             </div>
-            <button type="button" class="hamburger"><img src="./assets/images/menu-icon.png" alt=""></button>
+            <button type="button" class="hamburger"><img src="./assets/images/menu-icon.png" alt="menu"></button>
         </header>
     </nav>
     <main>
@@ -64,7 +73,7 @@
                 <li><a href="#"><img src="./assets/icon/twitter.png" alt="Twitter"></a></li>
                 <li><a href="#"><img src="./assets/icon/medium.png" alt="Medium"></a></li>
             </ul>
-                <a class="arrow" href="#"><img src="./assets/icon/element-right.png" alt="arrow"></a>   
+                <a class="arrow" href="#"><img src="./assets/icon/element-right.png" alt="arrow down"></a>   
             </div>                      
         </section>    
         <div class="experience-title" id="profile">
@@ -84,7 +93,7 @@
             <button type="button" class="project-button">See Project</button>
         </section> 
         <section class="experience-container" id="mobile1">
-            <img src="./assets/images/bg.jpg" alt="project image">
+            <img src="./assets/images/bg.jpg" alt="Preview image for my previous work">
             <h3>Multi-Post Stories</h3>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
             <ul class="stack-container">
@@ -96,7 +105,7 @@
             <button type="button" class="project-button">See Project</button>
         </section>
         <section class="experience-container" id="mobile2">
-            <img src="./assets/images/bg.jpg" alt="project image">
+            <img src="./assets/images/bg.jpg" alt="Preview image for my previous work">
             <h3>Multi-Post Stories</h3>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
             <ul class="stack-container">
@@ -108,7 +117,7 @@
             <button type="button" class="project-button">See Project</button>
         </section>
         <section class="experience-container" id="mobile3">
-            <img src="./assets/images/bg.jpg" alt="project image">
+            <img src="./assets/images/bg.jpg" alt="Preview image for my previous work">
             <h3>Multi-Post Stories</h3>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
             <ul class="stack-container">
@@ -120,7 +129,7 @@
             <button type="button" class="project-button">See Project</button>
         </section>
         <section class="experience-container" id="mobile4">
-            <img src="./assets/images/bg.jpg" alt="project image">
+            <img src="./assets/images/bg.jpg" alt="Preview image for my previous work">
             <h3>Multi-Post Stories</h3>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
             <ul class="stack-container">
@@ -135,7 +144,7 @@
         <!--Desktop-->
 
          <section class="experience-container" id="desktop">            
-            <img src="./assets/images/bg.jpg" alt="project image">
+            <img src="./assets/images/bg.jpg" alt="Preview image for my previous work">
             <div class="sec-wrap">
                 <h3>Multi-Post Stories</h3>
                 <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
@@ -149,7 +158,7 @@
             </div>
         </section> 
         <section class="experience-container" id="desktop1">
-            <img src="./assets/images/bg.jpg" alt="project image">
+            <img src="./assets/images/bg.jpg" alt="Preview image for my previous work">
             <div class="sec-wrap">
                 <h3>Multi-Post Stories</h3>
                 <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
@@ -163,7 +172,7 @@
             </div>
         </section>
         <section class="experience-container" id="desktopa">
-            <img src="./assets/images/bg.jpg" alt="project image">
+            <img src="./assets/images/bg.jpg" alt="Preview image for my previous work">
             <div class="sec-wrap">
                 <h3>Multi-Post Stories</h3>
                 <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
@@ -177,7 +186,7 @@
             </div>
         </section>
         <section class="experience-container" id="desktop2" >
-            <img src="./assets/images/bg.jpg" alt="project image">
+            <img src="./assets/images/bg.jpg" alt="Preview image for my previous work">
             <div class="sec-wrap">
                 <h3>Multi-Post Stories</h3>
                 <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
@@ -196,11 +205,8 @@
             <h3 id="contact">CONTACT US</h3>
             <P>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </P>
             <form action="https://formspree.io/f/xdoylybq" method="POST">
-                <label for="name"></label>
                 <input type="text" id="name" name="name" placeholder="Text Input" required>
-                <label for="mail"></label>
                 <input type="email" id="mail" name="_replyto" placeholder="jeremy@gmail.com"  maxlength="500" required>
-                <label for="msg"></label>
                 <textarea name="message" id="msg" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea>
                 <button class="button" type="submit">See Project</button>
             </form>
@@ -211,14 +217,10 @@
             <P>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </P>
             <form action="https://formspree.io/f/xdoylybq" method="POST">
                 <div class="form-box">
-                    <label for="name"></label>
                     <input class="input1" type="text" id="firstName" name="name" placeholder="First name" required>
-                    <label for="name"></label>
                     <input class="input2" type="text" id="lasNname" name="name" placeholder="Last name" required>
-                    <label for="mail"></label>
                 </div>
                 <input type="email" id="mail1" name="_replyto" placeholder="jeremy@gmail.com"  maxlength="500" required>
-                <label for="msg"></label>
                 <textarea name="message" id="msg1" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea>
                 <button class="button" type="submit">See Project</button>
             </form>

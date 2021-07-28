@@ -40,7 +40,9 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #191765;
+  background-color: #7e7e7e;
+
+  /* background-color: #191765; */
   background-image: url(./assets/images/eclipes.png);
   background-repeat: no-repeat;
   background-position-x: -200px;
@@ -250,7 +252,10 @@ form > button {
   height: 48px;
   border: none;
   margin-top: 3em;
-  background-color: #d58eeb;
+  background-color: #191735;
+  color: #fff;
+
+  /* background-color: #d58eeb; */
   cursor: pointer;
 }
 
@@ -260,7 +265,9 @@ form > button {
   left: 0;
   top: 421px;
   border-radius: 0;
-  background-color: #7d73fc;
+  background-color: #191735;
+
+  /* background-color: #7d73fc; */
   margin-top: 24px;
   margin-left: 24px;
   margin-bottom: 24px;
@@ -275,7 +282,9 @@ form > button {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #edecff;
+  color: #fff;
+
+  /* color: #edecff; */
 }
 
 .border-right {
@@ -286,13 +295,17 @@ form > button {
   padding-right: 20px;
 }
 
-.project-button :hover {
-  background-color: #e5e5e5;
+.project-button:hover {
+  background-color: #191765;
+
+  /* background-color: #e5e5e5; */
 }
 
 .project-button:focus {
   outline: none;
-  box-shadow: 0 0 0 3px #7d73fc;
+  box-shadow: 0 0 0 3px #191765;
+
+  /* box-shadow: 0 0 0 3px #7d73fc; */
 }
 
 .project-button:active {
@@ -348,7 +361,9 @@ form > textarea {
 }
 
 form > button:hover {
-  background-color: #503458;
+  background-color: #191765;
+
+  /* background-color: #503458; */
 }
 
 .form-container h3 {
