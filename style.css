@@ -260,7 +260,8 @@ form > button {
   left: 0;
   top: 421px;
   border-radius: 0;
-  background-color: #7d73fc;
+  background-color: #4A4A4A;
+  /*background-color: #7d73fc;*/
   margin-top: 24px;
   margin-left: 24px;
   margin-bottom: 24px;
@@ -275,6 +276,7 @@ form > button {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+  background-color: #000000;
   color: #FFFFFF;
   /*color: #edecff;*/
 }
