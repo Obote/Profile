@@ -251,7 +251,9 @@ form > button {
   height: 48px;
   border: none;
   margin-top: 3em;
-  background-color: #d58eeb;
+  background-color: #191735;
+  color: #FFFFFF;
+  /*background-color: #d58eeb;*/
   cursor: pointer;
 }
 
