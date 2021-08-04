@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-37E7P9BF84"></script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){window.dataLayer.push(arguments);}
@@ -20,15 +21,15 @@
     <nav class="navbar">
         <header class="navigation">
             <a class="logo" href="#">Obote</a>
-            <div class="menu-items">
-                <ul>
+            <div class="menu-items" id="menu-items">
+                <ul class="items" id="items">
                     <li><a href="#profile">Profile</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#"> <img src="./assets/icon/Union.svg" alt="message icon"></a></li>
                 </ul>
             </div>
-            <button type="button" class="hamburger"><img src="./assets/images/menu-icon.png" alt="menu"></button>
+            <button type="button" class="hamburger" id="hamburger"><img src="./assets/images/menu-icon.png" alt="menu"></button>
         </header>
     </nav>
     <main>
@@ -263,5 +264,7 @@
         </div>
     </footer>
 
+    <link rel="stylesheet" href="">
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
