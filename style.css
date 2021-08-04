@@ -418,7 +418,7 @@ form > button:hover {
   align-items: center;
   height: 70px;
 }
-/* 
+
 .menu-items.show{
   display: flex;
   width: 375px;
@@ -428,7 +428,7 @@ form > button:hover {
   top: 0;
   right: 0;
   
-} */
+} 
 
 
 @media screen and (min-width: 1100px) {
