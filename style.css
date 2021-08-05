@@ -419,17 +419,26 @@ form > button:hover {
   height: 70px;
 }
 
-.menu-items.show{
+.menu-items.bgShow{
   display: flex;
   width: 375px;
-  height: 100vh;
+  height: 100vh; 
   background-color: #191765;
   position: fixed;
-  top: 0;
+  top: 5px;
   right: 0;
-  
-} 
 
+  } 
+
+/.items.show{
+  display: flex;
+  background-color: #191765;
+  position: fixed;
+  width: 375px
+  height: 100vh;
+  top: 5px;
+  right: 0;
+} 
 
 @media screen and (min-width: 1100px) {
   .hamburger,

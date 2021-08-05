@@ -1,8 +1,7 @@
 const ham = document.getElementById('hamburger'); 
 const men = document.getElementById('menu-items');
+const ul = document.getElementById('items');
 
 ham.addEventListener('click',() => {
-    men.classList.toggle('show');
-    
-  
+     men.classList.toggle('bgShow');
 }); 
