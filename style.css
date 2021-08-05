@@ -62,7 +62,6 @@ header a {
   padding-right: 24px;
 }
 
-
 .hamburger :hover {
   background-color: #e5e5e5;
 }
@@ -438,15 +437,13 @@ li.mg {
   margin-right: 0;
   margin-left: 340px;
   background-color: #191765;
-
 }
 
 .x > p {
   color: #fff;
-
 }
 
-.menu-items.none{
+.menu-items.none {
   display: none;
 }
 
