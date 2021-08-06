@@ -42,12 +42,12 @@ men.addEventListener('click', () => {
 
 const expresions = {
   name: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
-  email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+  mail: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 };
 
 const stat = {
   name: false,
-  email: false,
+  mail: false,
 };
 
 const forms = document.getElementById('mobileForm');
@@ -58,32 +58,32 @@ const valForm = (e) => {
     case 'name':
 
       if (expresions.name.test(e.target.value)) {
-        document.getElementById('name').classList.remove('incorrectName');
-        document.getElementById('name').classList.add('correctName');
-        document.querySelector('#mobile-form .nameErorr').classList.remove('nameErorrActive');
+        document.getElementById('name').classList.remove('.incorrectName');
+        document.getElementById('name').classList.add('.correctName');
+        document.querySelector('#mobileForm .nameErorr').classList.remove('.nameErorrActive');
         stat.name = true;
       } else {
-        document.getElementById('name').classList.add('incorrectName');
-        document.getElementById('name').classList.remove('correctName');
-        document.querySelector('#mobile-form .nameErorr').classList.add('nameErorrActive');
+        document.getElementById('name').classList.add('.incorrectName');
+        document.getElementById('name').classList.remove('.correctName');
+        document.querySelector('#mobileForm .nameErorr').classList.add('.nameErorrActive');
         stat.name = false;
       }
       break;
     case 'mail':
       if (expresions.mail.test(e.target.value)) {
-        document.getElementById('mail').classList.remove('incorrectMail');
-        document.getElementById('mail').classList.add('correctMail');
-        document.querySelector('#form .email-error').classList.remove('mailErorrActive');
+        document.getElementById('mail').classList.remove('.incorrectMail');
+        document.getElementById('mail').classList.add('.correctMail');
+        document.querySelector('#mobileForm .mailErorr').classList.remove('.mailErorrActive');
         stat.mail = true;
       } else {
-        document.getElementById('mail').classList.add('incorrectMail');
-        document.getElementById('mail').classList.remove('correctMail');
-        document.querySelector('#form .email-error').classList.add('mailErorrActive');
+        document.getElementById('mail').classList.add('.incorrectMail');
+        document.getElementById('mail').classList.remove('.correctMail');
+        document.querySelector('#mobileForm .mailErorr').classList.add('.mailErorrActive');
         stat.mail = false;
       }
       break;
-    default:
-      console.log('All good');
+   
+      //console.log('All good');
   }
 };
 
@@ -93,12 +93,12 @@ inputs.forEach((input) => {
 });
 
 forms.addEventListener('submit', (e) => {
-  const email = document.getElementById('mail').value;
-  const valid = /[A-Z]/.test(email);
+  const mail = document.getElementById('mail').value;
+  const valid = /[A-Z]/.test(mail);
   if (valid) {
     document.querySelector('.mailErorr').style.display = 'flex';
     e.preventDefault();
   } else {
-    document.querySelector('mailErorr').style.display = 'none';
+    document.querySelector('.mailErorr').style.display = 'none';
   }
 });
