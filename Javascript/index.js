@@ -9,7 +9,7 @@ men.addEventListener('click', () => {
   men.classList.remove('bgShow');
 });
 
-// // popup 
+// // popup
 
 // const projects = [
 //   {
@@ -38,10 +38,7 @@ men.addEventListener('click', () => {
 //   },
 // ];
 
-
-
-
-form validation
+// form validation
 
 const expresions = {
   name: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
@@ -57,18 +54,51 @@ const forms = document.getElementById('mobileForm');
 const inputs = document.querySelectorAll('#mobileForm input');
 
 const valForm = (e) => {
-  switch (e.target.name){
+  switch (e.target.name) {
     case 'name':
-      if (expresions.name.test(e.target.value)){
+
+      if (expresions.name.test(e.target.value)) {
         document.getElementById('name').classList.remove('incorrectName');
         document.getElementById('name').classList.add('correctName');
         document.querySelector('#mobile-form .nameErorr').classList.remove('nameErorrActive');
         stat.name = true;
-      }else {
+      } else {
         document.getElementById('name').classList.add('incorrectName');
         document.getElementById('name').classList.remove('correctName');
         document.querySelector('#mobile-form .nameErorr').classList.add('nameErorrActive');
-        stat.name = true;
+        stat.name = false;
       }
+      break;
+    case 'mail':
+      if (expresions.mail.test(e.target.value)) {
+        document.getElementById('mail').classList.remove('incorrectMail');
+        document.getElementById('mail').classList.add('correctMail');
+        document.querySelector('#form .email-error').classList.remove('mailErorrActive');
+        stat.mail = true;
+      } else {
+        document.getElementById('mail').classList.add('incorrectMail');
+        document.getElementById('mail').classList.remove('correctMail');
+        document.querySelector('#form .email-error').classList.add('mailErorrActive');
+        stat.mail = false;
+      }
+      break;
+    default:
+      console.log('All good');
   }
 };
+
+inputs.forEach((input) => {
+  input.addEventListener('keyup', valForm);
+  input.addEventListener('blur', valForm);
+});
+
+forms.addEventListener('submit', (e) => {
+  const email = document.getElementById('mail').value;
+  const valid = /[A-Z]/.test(email);
+  if (valid) {
+    document.querySelector('.mailErorr').style.display = 'flex';
+    e.preventDefault();
+  } else {
+    document.querySelector('mailErorr').style.display = 'none';
+  }
+});
