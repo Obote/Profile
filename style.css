@@ -446,6 +446,37 @@ li.mg {
   margin-left: 340px;
 }
 
+.incorrectName {
+  border: red solid 2px;
+}
+
+.correctName {
+  border: greenyellow solid 2px;
+}
+
+.incorrectMail {
+  border: red solid 2px;
+}
+
+.correctMail {
+  border: greenyellow solid 2px;
+}
+
+.nameErorr {
+  display: none;
+}
+
+.nameErrorActive {
+  display: flex;
+  color: red;
+}
+
+.mailError {
+  display: none;
+  color: red;
+}
+
+
 @media screen and (min-width: 1100px) {
   .hamburger,
   #mobile,
