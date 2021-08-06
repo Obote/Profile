@@ -25,7 +25,7 @@ body {
   color: #c8cdd4;
 }
 
-.navbar header {
+header .navbar {
   position: relative;
   width: 375px;
   height: 92px;
@@ -41,8 +41,7 @@ main {
   flex-direction: column;
   align-items: center;
   background-color: #7e7e7e;
-
-  /* background-color: #191765; */
+  background-color: #191765;
   background-image: url(./assets/images/eclipes.png);
   background-repeat: no-repeat;
   background-position-x: -200px;
@@ -419,6 +418,34 @@ form > button:hover {
   height: 70px;
 }
 
+.menu-items.bgShow {
+  display: block;
+  width: 375px;
+  background-color: #6070ff;
+  position: fixed;
+  top: 10px;
+  right: 0;
+}
+
+li.mg {
+  display: none;
+}
+
+.items li {
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.menu-items.bgShow > li {
+  display: flex;
+}
+
+.x {
+  margin-top: 10px;
+  margin-right: 0;
+  margin-left: 340px;
+}
+
 @media screen and (min-width: 1100px) {
   .hamburger,
   #mobile,
@@ -476,7 +503,7 @@ form > button:hover {
     width: 1440px;
   }
 
-  .navbar header {
+  header .navbar {
     width: 1440px;
   }
 
@@ -678,5 +705,9 @@ form > button:hover {
     font-size: 20px;
     line-height: 28px;
     text-align: center;
+  }
+
+  .x {
+    display: none;
   }
 }
