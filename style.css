@@ -446,37 +446,6 @@ li.mg {
   margin-left: 340px;
 }
 
-.incorrectName {
-  border: red solid 2px;
-}
-
-.correctName {
-  border: greenyellow solid 2px;
-}
-
-.inCorrectMail {
-  border: red solid 2px;
-}
-
-.correctMail {
-  border: greenyellow solid 2px;
-}
-
-.nameErorr {
-  display: flex;
-  color: red;
-}
-
-.nameErrorActive {
-  display: flex;
-  color: red;
-}
-
-.mailError {
-  display: none;
-  color: red;
-}
-
 @media screen and (min-width: 1100px) {
   .hamburger,
   #mobile,
@@ -740,5 +709,13 @@ li.mg {
 
   .x {
     display: none;
+  }
+
+  .formShow {
+    display: none;
+  }
+
+  .mailErorr {
+    color: red;
   }
 }

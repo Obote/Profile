@@ -1,10 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Portfolio - Accessibility 
+## Portfolio - Contact form validayion 
 
-In this project, accessibility issues were checked and the changes were made accordingly. The contrast errors and other alt text errors were fixed. 
-
-Project day 2 week 3 of Microserve bootcamp, module 1
+Using javascript to validate email.
 
 
 ![screenshot](./app_screenshot.png)
@@ -15,6 +13,7 @@ Project day 2 week 3 of Microserve bootcamp, module 1
 - node
 - hmtl
 - css
+-JavaScript
 ## Live Demo
 
 [Live Demo Link](https://obote.github.io/Profile/)
@@ -32,12 +31,6 @@ Project day 2 week 3 of Microserve bootcamp, module 1
 - GitHub: [@Obote](https://github.com/Obote)
 - Twitter: [@Obote_denis](https://twitter.com/Obote_denis)
 - LinkedIn: [Obote Denis](https://www.linkedin.com/in/obote-denis-9859a2a3/)
-
-👤 **Author2**
-
-- GitHub: [@Medini-Rajendra](https://github.com/Medini-Rajendra)
-- Twitter: [@invenire512](https://twitter.com/invenire512)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/medinichaitanya/)
 
 ## 🤝 Contributing
 
