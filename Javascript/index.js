@@ -49,3 +49,4 @@ const updateFormValues = () => {
 };
 
 form.addEventListener('input', updateFormValues);
+
