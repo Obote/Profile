@@ -25,7 +25,6 @@ form1.addEventListener('submit', (event) => {
 });
 
 // local storage
-
 const form = document.getElementById('desktopForm');
 const userFormValues = {};
 if ('userData' in localStorage) {
