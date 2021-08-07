@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Portfolio - Contact form validayion 
+## Portfolio - Local data storage
 
-Using javascript to validate email.
+Using javascript to to store data locally in the browser
 
 
 ![screenshot](./app_screenshot.png)
@@ -43,7 +43,6 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- @leonardoeng13 for helping in pair programing
 - Hat tip to anyone whose code was used
 - Inspiration
 - Microverse
