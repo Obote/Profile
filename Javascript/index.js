@@ -23,3 +23,16 @@ form1.addEventListener('submit', (event) => {
     document.getElementById('lowerCase1').classList.toggle('formShow');
   }
 });
+
+//local storage
+
+const userFormValues = {};
+if ('userData' in localStorage){
+  const parsedData = JSON.parse(localStorage.userData);
+  form.elements[0].value = parsedData.firstName;
+  form.elements[1].value = parsedData.lastName;
+  form.elements[2].value = parsedData.userEmail;
+  form.elements[3].value = parsedData.userMessage;
+  }
+
+  
