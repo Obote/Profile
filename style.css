@@ -710,4 +710,12 @@ li.mg {
   .x {
     display: none;
   }
+
+  .formShow {
+    display: none;
+  }
+
+  .mailErorr {
+    color: red;
+  }
 }
