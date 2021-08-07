@@ -24,27 +24,28 @@ form1.addEventListener('submit', (event) => {
   }
 });
 
-//local storage
+// local storage
 
+const form = document.getElementById('desktopForm');
 const userFormValues = {};
-if ('userData' in localStorage){
+if ('userData' in localStorage) {
   const parsedData = JSON.parse(localStorage.userData);
   form.elements[0].value = parsedData.firstName;
   form.elements[1].value = parsedData.lastName;
   form.elements[2].value = parsedData.userEmail;
   form.elements[3].value = parsedData.userMessage;
-  }
+}
 
-  const saveValueLocally = () => {
-    localStorage.setItem('userData', JSON.stringify(userFormValues));
-  };
+const saveValueLocally = () => {
+  localStorage.setItem('userData', JSON.stringify(userFormValues));
+};
 
-  const updateFormValues = () => {
-    userFormValues.firstName = form.elements[0].value;
-    userFormValues.lastName = form.elements[1].value;
-    userFormValues.userEmail = form.elements[2].value;
-    userFormValues.userMessage = form.elements[3].value;
-    saveValueLocally();
-  };
+const updateFormValues = () => {
+  userFormValues.firstName = form.elements[0].value;
+  userFormValues.lastName = form.elements[1].value;
+  userFormValues.userEmail = form.elements[2].value;
+  userFormValues.userMessage = form.elements[3].value;
+  saveValueLocally();
+};
 
-  form.addEventListener('input', updateFormValues);
+form.addEventListener('input', updateFormValues);
