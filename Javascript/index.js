@@ -82,6 +82,7 @@ const projects = [
   },
 ];
 
+const btnsM = document.querySelectorAll('.buttonMobile');
 const btns = document.querySelectorAll('.buttons');
 const divProject = document.createElement('div');
 
@@ -96,6 +97,49 @@ function addEventListenerList() {
       let techHTML = '';
       for (let l = 0; l < projects[i].tech.length; l += 1) {
         techHTML += `<li class="modal-language">${projects[i].tech[l]}</li>`;
+      }
+
+      divProject.innerHTML = '<section class="modal-header flex">'
+        + '<div class="top-side-modal flex">'
+        + `<p>${projects[projectId].title}</p>`
+        + '<a class="close-popup">&times;</a>'
+        + '</div>'
+        + '</section>'
+        + '<div class="popup-img">'
+        + `<img width="330px" src="${projects[projectId].image}" alt="placeholder>`
+        + '</div>'
+        + '<section class="modal-section">'
+        + '<div class="modal-description">'
+        + `<p id = "P-description"class="modal-P">${projects[projectId].description}</p>`
+        + '</div>'
+        + '<div class="modal-div-language flex">'
+        + `<ul id="project-list">${techHTML}</ul>`
+        + '</div>'
+        + '<div class="modal-div-sources flex">'
+        + '<button class="modal-buttons">See Live<a href="#"></a></button>'
+        + '<button class="modal-buttons">See Source<a href="#"></a></button>'
+        + '</div>'
+        + '</section>';
+
+      document.getElementById('overal').appendChild(divProject);
+
+      const erase = document.querySelector('.close-popup');
+      erase.addEventListener('click', () => {
+        document.querySelector('.overal').style.display = 'none';
+        divProject.remove();
+      });
+    });
+  }
+  for (let ii = 10; ii < btnsM.length; ii += 1) {
+    btnsM[ii].addEventListener('click', (event) => {
+      const projectId = event.target.id;
+      divProject.id = 'modal';
+      divProject.className = 'modal flex';
+      document.querySelector('.overal').style.display = 'flex';
+
+      let techHTML = '';
+      for (let ll = 10; ll < projects[ii].tech.length; ll += 1) {
+        techHTML += `<li class="modal-language">${projects[ii].tech[ll]}</li>`;
       }
 
       divProject.innerHTML = '<section class="modal-header flex">'

@@ -725,9 +725,9 @@ li.mg {
     justify-content: space-between;
   } */
 
-   .flex {
+  .flex {
     display: flex;
-  } 
+  }
 
   .overal {
     background: #2f3577;
@@ -761,6 +761,10 @@ li.mg {
 
   .popup-img {
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .modal-header {
@@ -793,7 +797,6 @@ li.mg {
     justify-content: center;
     width: 95%;
   } */
-
 
   .modal-div-language .modal-language {
     border-left: 1px rgba(255, 255, 255, 0.16) solid;
