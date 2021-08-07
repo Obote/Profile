@@ -719,73 +719,36 @@ li.mg {
     color: red;
   }
 
-  /* The Modal (background) */
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
+  .top-side-modal {
+    align-self: flex-start;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+  }
+
+  .top-side-modal a {
+    margin-right: -80px;
+    cursor: alias;
+  }
+
+  .popup-img {
     width: 100%;
-    height: 1176px;
-    overflow: auto;
-    background-color: #A2A3AE;
-    background-color: rgba(0, 0, 0, 0.4);
   }
 
-  .modal-content {
-    background: rgba(255, 255, 255, 0.16);
-    margin: auto;
-    padding-left: 24px;
-    padding-right: 24px;
-    border: 1px solid #888;
-    width: 1156px;
+  .overal {
+    background: #2f3577;
+    display: none;
     justify-content: center;
-  }
-
-  /* The Close Button */
-    .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
+    align-content: center;
+    position: fixed;
+    opacity: 0.95;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
     cursor: pointer;
   }
-
-  .modal-content p {
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    padding-left: 236px;
-    padding-right: 236px;
-  
-  }
-  img {
-    width: fit-content;    
-  }
-
-  .pop {
-    font-family: Roboto, sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 32px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-
-  .box-head {
-  
-  }
-  
-  
 }
