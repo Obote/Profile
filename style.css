@@ -724,9 +724,10 @@ li.mg {
     display: flex;
     justify-content: space-between;
   } */
-  .flex {
+
+   .flex {
     display: flex;
-  }
+  } 
 
   .overal {
     background: #2f3577;
@@ -785,13 +786,14 @@ li.mg {
     margin: 24px 0;
   }
 
-  modal-div-language > ul {
+  /* modal-div-language > ul {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     width: 95%;
-  }
+  } */
+
 
   .modal-div-language .modal-language {
     border-left: 1px rgba(255, 255, 255, 0.16) solid;
