@@ -35,4 +35,7 @@ if ('userData' in localStorage){
   form.elements[3].value = parsedData.userMessage;
   }
 
-  
+  const saveValueLocally = () => {
+    localStorage.setItem('userData', JSON.stringify(userFormValues));
+  };
+
