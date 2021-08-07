@@ -39,3 +39,12 @@ if ('userData' in localStorage){
     localStorage.setItem('userData', JSON.stringify(userFormValues));
   };
 
+  const updateFormValues = () => {
+    userFormValues.firstName = form.elements[0].value;
+    userFormValues.lastName = form.elements[1].value;
+    userFormValues.userEmail = form.elements[2].value;
+    userFormValues.userMessage = form.elements[3].value;
+    saveValueLocally();
+  };
+
+  form.addEventListener('input', updateFormValues);
