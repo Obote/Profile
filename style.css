@@ -736,7 +736,7 @@ li.mg {
   }
 
   .overal {
-    background: #2f3577;
+    background: #2f3577; 
     display: none;
     justify-content: center;
     align-content: center;
@@ -751,4 +751,8 @@ li.mg {
     z-index: 2;
     cursor: pointer;
   }
-}
+  flex {
+    display: flex;
+    width: ;
+  }
+} 
